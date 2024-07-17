@@ -49,8 +49,8 @@ function sendMessage() {
 }
 
 async function sendRequest(message) {
-    const url = 'http://localhost:3000/bot/8948ae93-ed70-44e9-9217-376c22b7a4ac/api';
-    const apiKey = 'sk_db_I1kNRZPCU92bhzeGVvzyKbaesqzMM2nT';
+    const url = 'https://dialoqbase-production-89b0.up.railway.app/bot/27e7c299-f63c-4a84-8883-c76b86315e4f/api';
+    const apiKey = 'sk_db_ox2TjCJ1ECkJd2HyOChybsbrSZ6ARyJH';
     const data = {
         message: message,
         history: [],
